@@ -10,8 +10,9 @@ def main(s):
     i=0
     k=0
     while i<len(s):
-        if not s[i]== "a" or not s[i]== "e" or not s[i]== "i" or not s[i]== "o" or not s[i]== "u":
-            k+=1
+        if s[i].isdigit():
+            if not s[i]== "a" or not s[i]== "e" or not s[i]== "i" or not s[i]== "o" or not s[i]== "u":
+                k+=1
         i+=1
     return k
 print(main("salom"))
