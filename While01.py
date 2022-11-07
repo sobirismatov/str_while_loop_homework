@@ -12,7 +12,9 @@ def main(s):
         if s[i].isdigit():
             k+=1
         i+=1
+        break
     return k
+      
 print(main("sa555m"))
     
 
