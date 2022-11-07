@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    k=0
+    while i<len(s):
+        if int(s[i])%2==1:
+            k+=1
+        i+=0
+    return k
+print(main("123"))

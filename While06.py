@@ -7,3 +7,11 @@ def main(s):
     Returns:
         int: return answer
     """
+    i=0
+    k=0
+    while i<len(s):
+        if s[i]!= "a" and  s[i]!= "e" and s[i]!= "i" and s[i]!= "o" and s[i]!= "u":
+            k+=1
+        i+=1
+    return k
+print(main("salom"))
