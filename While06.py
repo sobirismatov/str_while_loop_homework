@@ -11,7 +11,9 @@ def main(s):
     k=0
     while i<len(s):
         if s[i].isdigit():
-            if not s[i]== "a" or not s[i]== "e" or not s[i]== "i" or not s[i]== "o" or not s[i]== "u":
+            if s[i]== "a" or  s[i]== "e" or s[i]== "i" or  s[i]== "o" or  s[i]== "u":
+                k+=0
+            else:
                 k+=1
         i+=1
     return k
